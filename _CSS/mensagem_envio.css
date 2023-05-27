@@ -1,0 +1,107 @@
+                                                                                            /*PRINCIPAL*/
+body.MENSAGEM_ENVIO{
+    background-image: url('../SITE/POSSIVEIS_MODELOS/Fundoenvio.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 125px;
+    background-size: 100% 100%;
+}
+
+                                                                                            /*CORPO*/
+
+                                                  /*CORPO ESTRUTURA ENVIO*/
+fieldset#ENVIO {
+    display: flexbox;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    height: 400px;
+    width: 500px;
+    margin: 40px 0px 0px 90px;
+}
+                                                  /*ASSUNTO*/
+input#assunto {
+    padding: 25px;
+    text-align: center;
+    width: 552px;
+    border: 2px solid #000000 none;
+
+}
+                                                  /*MENSAGEM*/
+textarea#mensagem {
+    width: 600px;
+    height: 224px;
+    align-items: center;
+    resize: none;
+
+}
+                                                  /*ESTERNO BOTAO*/
+div#botao {
+    display: inline-block;
+    background-color: #454545;
+    height: 100px;
+    width: 606px;   
+    border-top: 1px solid #000000;
+    margin-top: -4px;
+}
+                                                  /*BOTAO*/
+button#SALVAR_MENSAGEM {
+    margin: 3% 0% 6% 18%;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    background-color: #454545;
+    padding: 25px 120px 25px 120px;
+    font-weight: bolder;
+}
+
+                                            /*SELECIONAR LOCATARIO*/
+
+h3.cliente {
+    position: absolute;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    font-weight: 100;
+    font-size: 12pt;
+    padding: 3px; 
+    width: 254px; 
+    left: 56%;
+    top: 22%;
+}
+
+select#pesquisa_locatario {
+    position: absolute;
+    left: 56%;
+    top: 28%;
+    width: 20%;
+}
+
+                                            /*SELECIONAR LOCATARIO*/
+
+h3.mensagem {
+    position: absolute;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    font-weight: 100;
+    font-size: 12pt;
+    padding: 3px; 
+    width: 254px; 
+    left: 56%;
+    top: 39%;
+}
+
+select#Modelo_mensagem {
+    position: absolute;
+    left: 56%;
+    top: 45%;
+    width: 20%;
+}
+
+                                                  /*BOTAO ENVIO MANUAL*/
+
+button#ENVIO_MANUAL {
+    position: absolute;
+    right: 0%;
+    bottom: 8%;
+    padding: 12px;
+}

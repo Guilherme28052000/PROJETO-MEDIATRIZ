@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>SINDICO MESSEGER</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="_CSS/reset.css" rel="stylesheet">
+        <link href="_CSS/Form.css" rel="stylesheet">
+        <link href="_CSS/cadastrar.css" rel="stylesheet">
+
+        <style>
+
+        </style>
+
+    </head>
+
+    <body class="CADASTRAR">
+                                                                                 <!--Cabeçalho-->            
+        <header>
+                                                                                 <!--Logo e Exit-->
+
+            <img src="SITE/LOGO/LOGO2.png" class="logo"> 
+            <img src="SITE/IMG FUNDO MENU/logout.png" class="exit">  
+            
+            <nav id="MENU">
+                    <a href="Index.html">HOME</a>
+                    <a href="mensagem_envio.html">MENSAGEM ENVIO</a>
+                    <a href="configuracao_envio.html">CONFIGURAÇÃO ENVIO</a>
+            </nav>  
+
+        </header>
+
+        <div class="corpo">
+                                                                                    <!--Corpo-->
+            <div id="fundo_sindico">
+            </div>
+
+            <section class="sindico">
+                <h1>SINDICO</h1>
+                <fieldset id="SINDICO">
+                    <Form method="post" name="SINDICO" action="">
+                        <ul>
+                            <li><input type="text" name="Nome" placeholder="Nome" max="70" size="65"></li>
+                            <li><input type="email" name="Email" placeholder="E-mail" max="70" size="65"></li> 
+                            <li><input type="tel" name="Celular" placeholder="WhatsApp (DDD) 9 9999-9999" max="70" size="65"></li>  
+                            <li><input type="text" name="endereco" placeholder="rua,avenida..." max="70" size="65"></li> 
+                        </ul>
+                        <button id="LIMPAR_SINDICO">LIMPAR</button>
+                        <button id="CADASTRAR_SINDICO">CADASTRAR</button>
+                    </Form>
+                </fieldset>  
+            </section>
+
+
+            <div id="fundo_locatario">
+            </div>
+
+            <section class="locatario">
+                <h1>LOCATARIO</h1>
+                    <fieldset id="LOCATARIO">
+                        <Form method="post" name="LOCATARIO" action="PHP/CADASTRO.php">
+                            <ul>
+                                <li><input type="text" name="Nome" placeholder="Nome" max="70" size="65"></li>
+                                <li><input type="email" name="Email" placeholder="E-mail" max="70" size="65"></li> 
+                                <li><input type="tel" name="Celular" placeholder="WhatsApp (DDD) 9 9999-9999" max="70" size="65"></li>  
+                                <li><input type="text" name="endereco" placeholder="rua,avenida..." max="70" size="65"></li> 
+                            </ul>
+                            <button id="LIMPAR_LOCATARIO">LIMPAR</button>
+                            <button id="CADASTRAR_LOCATARIO" type="submit">CADASTRAR</button>
+                        </Form>
+                    </fieldset>
+            </section>   
+        
+
+        </div>
+                                                                                    <!--Rodape-->
+        <Footer id="rodape">
+            <p><a href="http://srv01.fantastiko.com.br/src/pages/Login/login.php?redireciona=/" 
+                target="_blank">VISTA OFFICE</a>
+            | <a href="https://novovista.com.br/" target="_blank">CRM</a></p>
+        </Footer>
+    </body>
+</html>

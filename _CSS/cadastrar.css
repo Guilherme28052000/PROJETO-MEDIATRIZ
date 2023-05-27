@@ -1,0 +1,135 @@
+                                                                                            /*PRINCIPAL*/
+body.CADASTRAR{
+    background-image: url('/SITE/POSSIVEIS_MODELOS/LIVROO.png');
+    background-repeat: no-repeat;   
+    background-position-x: center;
+    background-position-y: 100px;
+    background-size: 40%;
+    
+    
+}
+                                                   /*LISTA*/
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 5px;
+}
+
+input {
+    padding: 8px;
+    
+}
+                                                   /*BOTAO*/
+button {
+    padding: 15px;
+    margin-top: 60px;
+    margin-right: 280px;
+    
+}
+
+                                                                                            /*CORPO*/
+
+                                                                                            
+                                                               /*SINDICO*/
+                                           /*FUNDO SINDICO*/                                                               
+div#fundo_sindico {
+    position: absolute;
+    background-color: orange;
+    height: 40px;
+    width: 560px;
+    bottom: 450px;
+    left: 50px;
+    
+}
+
+section.sindico h1 {
+                                                   /*BOX*/
+display: block;
+position: relative;
+top: 15px;
+left: 50px;
+height: 350px;
+width: 550px;
+border: 5px solid #ffffff;
+                                                  /*TEXTO*/
+text-align: center;
+color: #ffffff;
+font-size: 20pt;
+padding-top: 5px;
+
+}
+                                           /*LISTA SINDICO*/
+fieldset#SINDICO {
+    width: 30px;
+    position: absolute;
+    bottom: 130px;
+    left: 53px;
+    border: none;
+
+}
+                                                  /*BOTOES*/
+button#CADASTRAR_SINDICO {
+    background-color: orange;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+button#LIMPAR_SINDICO {
+    margin-left: 10px;
+    font-weight: bolder;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+                                           /*FUNDO LOCATARIO*/ 
+div#fundo_locatario {
+    position: absolute;
+    background-color: orange;
+    height: 40px;
+    width: 560px;
+    bottom: 450px;
+    left: 700px;
+    
+}
+
+                                                   /*BOX*/
+section.locatario h1 {
+display: block;
+position: relative;
+bottom: 394px;
+left: 700px;
+height: 387%;
+width: 550px;
+border: 5px solid #ffffff;
+                                                   /*TEXTO*/
+text-align: center;
+color: #ffffff;
+font-size: 20pt;
+padding-top: 5px;
+
+}
+                                         /*LISTA LOCATARIO*/
+fieldset#LOCATARIO {
+    width: 30px;
+    position: absolute;
+    bottom: 130px;
+    left: 700px;
+    border: none;
+
+}
+                                                  /*BOTOES*/
+button#CADASTRAR_LOCATARIO {
+    background-color: orange;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+button#LIMPAR_LOCATARIO {
+    margin-left: 10px;
+    font-weight: bolder;
+    color: #000000;
+    background-color: #ffffff;
+}
+

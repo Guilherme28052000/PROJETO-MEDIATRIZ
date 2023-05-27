@@ -1,0 +1,106 @@
+                                                                                            /*PRINCIPAL*/
+@font-face {
+    font-family: ENVIO;
+    src: url(../SITE/FONTES/FredokaOne-Regular.ttf) format(truetype);
+    font-weight: bold;
+}
+
+body.CONFIGURACAO_ENVIO{
+    background-image: url('../SITE/POSSIVEIS_MODELOS/fundo_envio.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 135%;
+    background-size: 20% 35%;
+}
+
+                                                                                            /*CORPO*/
+
+                                                     /*ESCRITAS - H2*/
+h2#tempo, h2#tipo, h2#recebedor {
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 10px;
+    width: 30%;
+    font-weight: 100;
+    font-size: 12pt;
+    text-align: center;
+
+}
+
+h2#tempo {
+    top: 30%;
+    left: 2%;
+}
+
+h2#tipo {
+    top: 40%;
+    left: 2%;
+}
+
+h2#recebedor {
+    top: 50%;
+    left: 2%;
+}
+                                                     /*SELEÇÃO*/
+
+select#tempo, select#tipo, select#recebedor {
+    position: absolute;
+    padding: 10px;
+    width: 30%;
+    font-weight: 100;
+    font-size: 12pt;
+    text-align: center;
+
+}
+
+select#tempo {
+    top: 32%;
+    left: 45%;
+}
+
+select#tipo {
+    top: 42%;
+    left: 45%;
+}
+
+select#recebedor {
+    top: 52%;
+    left: 45%;
+}
+
+                                                     /*BOTOES*/
+button {
+    position: absolute;
+    padding: 10px;
+    width: 10%;
+    
+}
+
+button#ON {
+    background-color: #00f209;
+    top: 32%;
+    right: 1%;
+    
+}
+
+button#OFF {
+    background-color: #f60303;
+    top: 42%;
+    right: 1%;
+    
+}
+
+
+                                                     /*ESCRITAS - H1*/
+h1#ult {
+    left: 30px;
+}
+            
+h1#ult {
+    position: absolute;
+    bottom: 90px;
+    color: #ffffff;
+    font-family: 'ENVIO';
+    font-size: 50px;
+}

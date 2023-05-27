@@ -1,0 +1,35 @@
+@font-face {
+    font-family: ENVIO;
+    src: url(../SITE/FONTES/FredokaOne-Regular.ttf) format(truetype);
+    font-weight: bold;
+}
+
+body {
+    background-color: #5995ce;
+    width: 100%;
+    height: 73vh;
+}
+
+.conteiner {
+    display: flex;
+}
+
+header.menu {
+    order: 1;
+    display: flex;
+    background-color: black;
+
+}
+
+.corpo {
+    order: 2;
+    display: flex;
+    background-color: yellow;
+}
+
+.rodape{
+    order: 3;
+    display: flex;
+    background-color: blueviolet;
+}
+

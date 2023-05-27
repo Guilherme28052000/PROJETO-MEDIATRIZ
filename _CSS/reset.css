@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+button#CADASTRAR_LOCATARIO {
+    margin-right: 0px;
+}
+
+button#CADASTRAR_SINDICO {
+    margin-right: 0px;
+}
+
+fieldset#ENVIO {
+    padding: 0px;
+}
+
+button#SALVAR_MENSAGEM {
+    margin: 0px;
+}
+
+input#assunto {
+    padding: 0px;
+}
+
+input#mensagem {
+    padding: 0px;
+}
