@@ -5,27 +5,39 @@
     font-weight: bold;
 }
 
-
-body.fundo_index{
-    background-image: url('../SITE/POSSIVEIS_MODELOS/FUNDO2.png');
-    background-position-y: 70%;
-    background-size: 120%;
+div.corpo {
+    flex-direction: row;
+    padding: 10px 0px 0px 0px;
+}
+img.fundo{
+    margin: 0px;
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 101vw;
+    
 }
                                                                                             /*CORPO*/
 
 h1#ult {
-    right: 130px;
+    position: absolute;
+    display: inline-block;
+    padding-top: clamp(1rem, 10vw, 5rem);
+    left: clamp(1rem, 20vw, 20rem);
 }
 
-
 h1#prox {
-    left: 100px;
+    position: absolute;
+    display: inline-block;
+    padding-top: clamp(1rem, 10vw, 5rem);
+    left: clamp(60vw, 21rem, 15rem);
 }
 
 h1#prox, h1#ult {
-    position: absolute;
+    position: none;
     top: 90px;
     color: #ffffff;
     font-family: 'ENVIO';
-    font-size: 50px;
+    font-size: 2.5vw;
 }
